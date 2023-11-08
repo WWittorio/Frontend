@@ -26,21 +26,49 @@
       />
       <!-- ____________________EMAIL____________________ -->
       <label for="email"><b>Email:</b></label>
+
       <input
         type="email"
         placeholder="tuaemail@gmail.com"
         name="email"
         id="email"
       />
+      <br />
+      <!-- ____________________MALE / FEMALE____________________ -->
+      <label for="Genere"><b>Genere:</b></label>
+      <input type="radio" name="maschio" id="maschio" value="M" />
+      <label for="Genere">M</label>
+      <input type="radio" name="femmina" id="femmina" value="F" />
+      <label for="Genere">F</label>
+      <input type="radio" name="altro" id="altro" value="A" />
+      <label for="Genere">A</label>
+      <br />
+      <!-- ____________________HOBBIES____________________ -->
+      <label for="Interessi"><b>Interessi:</b></label>
+      <input type="checkbox" name="Sport" id="Sport" value="Sport" />
+      <label for="Interessi">Sport</label>
+      <input type="checkbox" name="Musica" id="Musica" value="Musica" />
+      <label for="Interessi">Musica</label>
+      <input type="checkbox" name="Cinema" id="Cinema" value="Cinema" />
+      <label for="Interessi">Cinema</label>
+      <input type="checkbox" name="Arte" id="Arte" value="Arte" />
+      <label for="Interessi">Arte</label>
       <hr />
+
       <!-- ____________________SELECT / PRE TEXTAREA ____________________ -->
       <label for="Contattaci"><b>Contattaci per:</b></label>
       <select name="motivazione" id="Domanda">
-        <option value="null">Inserisci qui il motivo</option>
+        <option value="" selected disabled hidden>
+          Inserisci qui il motivo
+        </option>
         <option value="Domanda">Domanda</option>
         <option value="Feedback">Feedback</option>
         <option value="SegnalazioneDiBug">Segnalazione di bug</option>
       </select>
+      <!-- ____________________FILE ____________________ -->
+      <label for="AllegaFile"><b>| Allega file qui:</b></label>
+      <input type="file" />
+
       <br />
       <!-- ____________________TEXTAREA____________________ -->
       <textarea
