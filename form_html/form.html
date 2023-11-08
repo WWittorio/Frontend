@@ -7,6 +7,7 @@
     <title>Form</title>
   </head>
   <body>
+    <h1><u>CONTATTACI</u></h1>
     <form>
       <!-- ____________________FIRST NAME____________________ -->
       <label for="FirstName"><b>Nome:</b></label>
@@ -82,15 +83,22 @@
         rows="10"
         placeholder="Inserisci qui il contenuto della segnalazione"
       ></textarea>
-      <!-- ____________________BUTTON____________________ -->
-
       <br />
 
       <br />
+      <!-- ____________________BUTTONs____________________ -->
       <input type="button" value="Invia" />
+      <span> | </span>
+      <input type="reset" value="Azzera campi" />
       <span>
-        <i>Cliccando su "Invia" accetti il trattamento dei dati personali</i>
+        | <i> Cliccando su "Invia" accetti il trattamento dei dati personali</i>
       </span>
+      <br />
+      <br />
+      <!-- ____________________DATA____________________ -->
+      <label for="date">Inviato il:</label>
+      <input type="datetime-local" value="2023-11-08T12:30" readonly />
+      <br />
     </form>
   </body>
 </html>
