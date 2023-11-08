@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/troll_icon.png" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <!-- ____________________FIRST NAME____________________ -->
+      <label for="FirstName"><b>Nome:</b></label>
+      <input
+        type="text"
+        placeholder="Tuo Nome"
+        name="FirstName"
+        id="FirstName"
+      />
+      <!-- ____________________SECOND NAME____________________ -->
+      <label for="SecondName"><b>Cognome:</b></label>
+      <input
+        type="text"
+        placeholder="Tuo Cognome"
+        name="SecondName"
+        id="SecondName"
+      />
+      <!-- ____________________EMAIL____________________ -->
+      <label for="email"><b>Email:</b></label>
+      <input
+        type="email"
+        placeholder="tuaemail@gmail.com"
+        name="email"
+        id="email"
+      />
+      <hr />
+      <!-- ____________________SELECT / PRE TEXTAREA ____________________ -->
+      <label for="Contattaci"><b>Contattaci per:</b></label>
+      <select name="motivazione" id="Domanda">
+        <option value="null">Inserisci qui il motivo</option>
+        <option value="Domanda">Domanda</option>
+        <option value="Feedback">Feedback</option>
+        <option value="SegnalazioneDiBug">Segnalazione di bug</option>
+      </select>
+      <br />
+      <!-- ____________________TEXTAREA____________________ -->
+      <textarea
+        name="text"
+        id=""
+        cols="95"
+        rows="10"
+        placeholder="Inserisci qui il contenuto della segnalazione"
+      ></textarea>
+      <!-- ____________________BUTTON____________________ -->
+
+      <br />
+      <input type="button" value="Invia" />
+      <span>
+        <i>Cliccando su "Invia" accetti il trattamento dei dati personali</i>
+      </span>
+    </form>
+  </body>
+</html>
