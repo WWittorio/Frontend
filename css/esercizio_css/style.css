@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: yellow;
+}
+.square {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  font-size: xx-large;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
