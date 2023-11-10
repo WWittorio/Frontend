@@ -1,3 +1,11 @@
+/* 
+00-RESET CSS
+01-HEADER
+02-MAIN
+03-FOOTER
+04-COLORS
+*/
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10,7 +18,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* _______________HEADER________________ */
+/* _______________01-HEADER________________ */
 header {
   margin-top: 100px;
   margin-bottom: 180px;
@@ -19,13 +27,13 @@ header {
 h1 {
   font-size: 90px;
 }
-/* _______________MAIN________________ */
+/* _______________02-MAIN________________ */
 main {
   width: 1132px;
   margin: 0 auto;
 }
 
-.square {
+section > div {
   display: inline-block;
   width: 200px;
   height: 200px;
@@ -34,20 +42,15 @@ main {
 section {
   height: 240px;
 }
-.fifth-section {
+#lastColoredSquare {
   height: 220px;
+  margin-bottom: 0;
 }
-/* _______________FOOTER________________ */
-footer {
-  height: 400px;
-  background-color: black;
-  color: white;
-  font-size: 30px;
-  padding: 350px;
-  text-align: center;
+#lastSquare {
+  margin-bottom: 180px;
 }
 
-.textbox {
+#lastSquare > div {
   border: 8px solid black;
   margin-top: 0;
   text-transform: uppercase;
@@ -57,98 +60,106 @@ footer {
   font-weight: bold;
   margin-bottom: 180px;
 }
-.last {
-  margin-bottom: 0;
+
+/* _______________03-FOOTER________________ */
+footer {
+  height: 400px;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  padding: 350px;
+  text-align: center;
 }
+
 /* 
 
 
-
+ _______________04-COLORS________________ 
 
 
 */
 
 /* COLOR RED  */
-.r1 {
+#r1 {
   background-color: rgba(255, 0, 0, 0.2);
 }
-.r2 {
+#r2 {
   background-color: rgba(255, 0, 0, 0.4);
 }
-.r3 {
+#r3 {
   background-color: rgba(255, 0, 0, 0.6);
 }
-.r4 {
+#r4 {
   background-color: rgba(255, 0, 0, 0.8);
 }
-.r5 {
+#r5 {
   background-color: rgba(255, 0, 0, 1);
 }
 
 /* COLOR ORANGE  */
-.o1 {
+#o1 {
   background-color: rgba(255, 166, 0, 0.2);
 }
-.o2 {
+#o2 {
   background-color: rgba(255, 166, 0, 0.4);
 }
-.o3 {
+#o3 {
   background-color: rgba(255, 166, 0, 0.6);
 }
-.o4 {
+#o4 {
   background-color: rgba(255, 166, 0, 0.8);
 }
-.o5 {
+#o5 {
   background-color: orange;
 }
 
 /* COLOR GREEN */
-.g1 {
+#g1 {
   background-color: rgba(0, 177, 0, 0.2);
 }
-.g2 {
+#g2 {
   background-color: rgba(0, 177, 0, 0.4);
 }
-.g3 {
+#g3 {
   background-color: rgba(0, 177, 0, 0.6);
 }
-.g4 {
+#g4 {
   background-color: rgb(0, 177, 0, 0.8);
 }
-.g5 {
+#g5 {
   background-color: green;
 }
 
 /* COLOR BLUE */
-.b1 {
+#b1 {
   background-color: rgba(0, 0, 255, 0.2);
 }
-.b2 {
+#b2 {
   background-color: rgba(0, 0, 255, 0.4);
 }
-.b3 {
+#b3 {
   background-color: rgba(0, 0, 255, 0.6);
 }
-.b4 {
+#b4 {
   background-color: rgb(0, 0, 255, 0.8);
 }
-.b5 {
+#b5 {
   background-color: blue;
 }
 
 /* COLOR BLACK */
-.n1 {
+#n1 {
   background-color: rgba(0, 0, 0, 0.2);
 }
-.n2 {
+#n2 {
   background-color: rgba(0, 0, 0, 0.4);
 }
-.n3 {
+#n3 {
   background-color: rgba(0, 0, 0, 0.6);
 }
-.n4 {
+#n4 {
   background-color: rgb(0, 0, 0, 0.8);
 }
-.n5 {
+#n5 {
   background-color: rgb(0, 0, 0);
 }
