@@ -1,0 +1,106 @@
+/* 
+01-RESET
+02-HEADER
+03-MAIN
+04-FOOTER
+05-
+*/
+/* _______________01-RESET________________ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy, sans-serif;
+  font-size: 25px;
+}
+
+/* _______________01.1 UTILITIES________________ */
+
+.wrapper {
+  width: 1400px;
+  height: 5vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding: 15px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 51, 153);
+}
+a:hover {
+  color: rgb(0, 67, 255);
+}
+
+/* _______________02-HEADER________________ */
+header {
+  height: 100px;
+
+  background-color: yellow;
+}
+.navContainer {
+  justify-content: space-between;
+}
+
+/* _______________03-MAIN________________ */
+
+main {
+  height: calc(100vh - 160px);
+}
+
+.jumbo {
+  background-image: url(assets/casio_bg.avif);
+  width: 100%;
+  height: calc(100vh - 160px);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px 10vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 90px;
+}
+/* _______________04-FOOTER________________ */
+footer {
+  background-color: yellow;
+  height: 60px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 
+
+
+UTILI 
+.x {
+header     background-color: rgb(242, 160, 98);
+logo       background-color: rgb(235, 100, 129);
+navigator  background-color: rgb(215, 106, 80);
+background background-color: rgb(142, 171, 192);
+post title background-color: rgb(183, 206, 63);
+image      background-color: rgb(152, 171, 52);
+lorem      background-color: rgb(120, 135, 41);
+footer     background-color: rgb(183, 206, 63)
+
+HTML encoded:
+SEARCH:   &#x1F50E;&#xFE0E;
+
+} */
